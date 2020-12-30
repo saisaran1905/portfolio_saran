@@ -130,6 +130,10 @@ header {
     min-width: 100px;
 }
 
+.details1, .details2, .details3, .details4 {
+    padding-left:6rem;
+}
+
 .project-casestudy {
     margin: 0 auto;
     align-items: center;
@@ -158,7 +162,7 @@ header {
 
 .row img {
     width: 100%;
-    padding: 2em 0;
+    padding: 0 0;
 }
 
 ol {
@@ -210,6 +214,29 @@ footer {
 .social-icons a{
     margin-right: 10px;
 }
+
+@media only screen and (min-width: 767px) {
+    .img-fluid {
+        min-width: 600px;
+    }
+    .details1, .details2 {
+        padding-right:16rem;
+    }
+
+    
+}
+
+@media only screen and (min-width: 1050px) {
+
+    .details1, .details2, .details3, .details4 {
+        padding-left: 6rem;
+        padding-right: 0;
+    }
+    
+    
+}
+
+
 /*.details1 {
     padding: 0 0 4em 0;
     line-height: 1.2;
